@@ -18,7 +18,9 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = "asset_sync"
 
-  s.add_dependency('fog', ">= 1.8.0")
+  s.add_dependency('fog', "~> 2.0.0.pre.0")
+  s.add_dependency('fog-google', "~> 0.3.2")
+  s.add_dependency('net-ssh')
   s.add_dependency('unf')
   s.add_dependency('activemodel')
   s.add_dependency('mime-types')
